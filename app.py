@@ -1,6 +1,7 @@
 """
 도금 폐수 Cr(VI) 처리용 활성탄 산정 시뮬레이터
-Author: 김남윤 (충남대 환경공학과)
+Author: 푸리움팀
+Project: 종합설계 프로젝트 - 흡착제를 이용한 Cr(IV) 흡착 성능과 실증 구현
 Data: AC-O3-Al 흡착제 기반 실험 데이터
 Version: 2.0
 """
@@ -376,7 +377,7 @@ if calc_button or 'result' in st.session_state:
         ### 데이터 출처
         - 실험: AC-O3-Al 흡착제 (오존 산화 + 0.01M AlCl₃ 개질)
         - 측정: UV-Vis (DPC법, 540nm), ICP-OES
-        - 작성: 김남윤 (충남대 환경공학과, 2026)
+        - 작성: 푸리움팀 (2026)
         """)
 
 else:
@@ -409,11 +410,11 @@ else:
     st.dataframe(scenarios, use_container_width=True)
     
     st.markdown("""
-    ### 졸업논문 정보
-    - **연구**: AC-O3-Al 흡착제를 이용한 Cr(VI) 흡착 연구
-    - **작성**: 김남윤 (충남대 환경공학과)
+    ### 종합설계 프로젝트
+    - **연구 주제**: 흡착제를 이용한 Cr(IV) 흡착 성능과 실증 구현
+    - **작성**: 푸리움팀
     - **연도**: 2026
     """)
 
 st.markdown("---")
-st.caption("🧪 도금 폐수 Cr(VI) 처리용 활성탄 산정 시뮬레이터 v2.0 | 충남대학교 환경공학과 김남윤")
+st.caption("🧪 도금 폐수 Cr(VI) 처리용 활성탄 산정 시뮬레이터 v2.0 | 푸리움팀")
